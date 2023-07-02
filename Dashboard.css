@@ -1,0 +1,187 @@
+* {
+
+    /* font-family: 'Cinzel', serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Crimson Text', serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif; */
+    font-family: 'PT Mono';
+    /* font-family: 'Rajdhani', sans-serif; */
+
+}
+
+.nav-link {
+    color: white;
+    margin: 10px;
+}
+
+.search-box {
+    display: flex;
+    background-color: #ffffff;
+    text-align: center;
+    width: 55%;
+    padding: 3vh 0vh;
+    margin-top: 3vh;
+    margin-bottom: 0vh;
+    border: none;
+    border-radius: 40px;
+    box-sizing: 1px 1px 5px 1px rgb(0, 0, 0);
+
+}
+
+.side-bar hr {
+    color: rgb(28, 204, 204);
+}
+
+.notification {
+    height: 6vh;
+    cursor: pointer;
+    float: right;
+}
+
+.filterlogo {
+    height: 5vh;
+    /* width: 4vw; */
+    cursor: pointer;
+}
+
+.gopaanilogo {
+    height: 6vh;
+    cursor: pointer;
+}
+
+.whatsapplogo {
+    height: 6vh;
+    cursor: pointer;
+    float: right;
+}
+
+.helplogo {
+    height: 6vh;
+    cursor: pointer;
+    float: right;
+}
+
+.premium-version {
+    margin-left: 5px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.row a {
+    text-decoration: none;
+}
+
+.homeimg {
+    background-image: url(img/web-home-pg.img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    overflow: auto;
+}
+
+.homeimg p {
+    font-size: 87px;
+    text-align: center;
+    text-shadow: 1px 1px 10px #06243D;
+}
+
+.homeimg b {
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+@media(max-width:1000px) {
+    .homeimg p {
+        font-size: 32px;
+    }
+
+    .homeimg b {
+        word-spacing: 1px;
+        letter-spacing: 0px;
+    }
+}
+
+@media(max-width:600px) {
+    .homeimg p {
+        font-size: 22px;
+    }
+
+    .homeimg b {
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+}
+
+.addcoustomer {
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 5px 15px;
+    background-color: rgb(53, 171, 218);
+    position: fixed;
+}
+
+.navbar {
+    background-color: #06243D;
+    color: white;
+}
+
+footer .container .col img {
+    height: 15vh;
+}
+
+.footer {
+    color: white;
+    font-size: 18px;
+}
+
+.footer .col .row {
+    margin: 40px;
+    cursor: pointer;
+}
+
+.footer .container .row .col .logoimg {
+    height: 6vh;
+    width: auto;
+    cursor: pointer;
+}
+
+h1 .gopaani {
+    cursor: pointer;
+}
+
+.nav-item a:hover {
+    background-color: #06243D;
+    border-radius: 8px;
+}
+
+.card .image {
+    height: 7vh;
+    width: 7vh;
+}
+
+.faq-boxes:hover {
+    background-color: #0d5691;
+    border-radius: 8px;
+}
+
+.faq-inside-boxes:hover {
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.sheets img {
+    height: 6vh;
+    width: auto;
+}
+
+.sheets a {
+    color: black;
+}
+.annually:hover{
+    background-color: #06243D;
+}
